@@ -1,0 +1,21 @@
+---
+title: "lala"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{lala}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+ Oh, https://masalmon.eu/405.
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(example)
+```
